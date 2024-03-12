@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "settings": [
+        "{\"deviceStreamingMode\":2,\"deviceIndex\":0,\"recordingFile\":\"Assets/Captures/cam0.mkv\",\"minDistance\":0.5,\"maxDistance\":10.0,\"colorCameraMode\":2,\"depthCameraMode\":2,\"cameraFPS\":2,\"deviceSyncMode\":0,\"subDeviceDelayUsec\":0,\"flipImuRotation\":false,\"bodyTemporalSmoothing\":0.0,\"playbackPosSeconds\":-1.0,\"loopPlayback\":false,\"bodyTrackingSensorOrientation\":0,\"bodyTrackingProcessingMode\":2,\"detectFloorForPoseEstimation\":true}",
+        "{\"deviceStreamingMode\":2,\"deviceIndex\":1,\"recordingFile\":\"Assets/Captures/cam1.mkv\",\"minDistance\":0.5,\"maxDistance\":10.0,\"colorCameraMode\":2,\"depthCameraMode\":2,\"cameraFPS\":2,\"deviceSyncMode\":0,\"subDeviceDelayUsec\":0,\"flipImuRotation\":false,\"bodyTemporalSmoothing\":0.0,\"playbackPosSeconds\":-1.0,\"loopPlayback\":false,\"bodyTrackingSensorOrientation\":0,\"bodyTrackingProcessingMode\":2,\"detectFloorForPoseEstimation\":true}",
+        "{\"deviceStreamingMode\":2,\"deviceIndex\":2,\"recordingFile\":\"Assets/Captures/cam2.mkv\",\"minDistance\":0.5,\"maxDistance\":10.0,\"colorCameraMode\":2,\"depthCameraMode\":2,\"cameraFPS\":2,\"deviceSyncMode\":0,\"subDeviceDelayUsec\":0,\"flipImuRotation\":false,\"bodyTemporalSmoothing\":0.0,\"playbackPosSeconds\":-1.0,\"loopPlayback\":false,\"bodyTrackingSensorOrientation\":0,\"bodyTrackingProcessingMode\":2,\"detectFloorForPoseEstimation\":true}"
+    ],
+    "camPose": [
+        {
+            "sensorType": 4,
+            "sensorIndex": 0,
+            "sensorId": "cam0",
+            "position": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "sensorType": 4,
+            "sensorIndex": 1,
+            "sensorId": "cam1",
+            "position": {
+                "x": 2.9990601539611818,
+                "y": 1.3768746852874756,
+                "z": 2.4888458251953127
+            },
+            "rotation": {
+                "x": 3.7926747798919679,
+                "y": 280.52752685546877,
+                "z": 5.686672210693359
+            }
+        },
+        {
+            "sensorType": 4,
+            "sensorIndex": 2,
+            "sensorId": "cam2",
+            "position": {
+                "x": -1.2542386054992676,
+                "y": 2.070040225982666,
+                "z": 5.1422014236450199
+            },
+            "rotation": {
+                "x": 19.36064338684082,
+                "y": 141.18759155273438,
+                "z": 354.7393798828125
+            }
+        }
+    ],
+    "estimatedAtTime": 638072069857895347,
+    "estimatedDateTime": "12/21/2022 8:09 AM"
+}

@@ -1,0 +1,3 @@
+<linker>
+       <assembly fullname="k4arecord" preserve="all"/>
+</linker>
