@@ -57,7 +57,8 @@ namespace com.rfilkov.kinect
         public k4abt_sensor_orientation_t bodyTrackingSensorOrientation = k4abt_sensor_orientation_t.K4ABT_SENSOR_ORIENTATION_DEFAULT;
 
         [Tooltip("Processing mode to be used by the Body Tracking SDK.")]
-        public k4abt_tracker_processing_mode_t bodyTrackingProcessingMode = k4abt_tracker_processing_mode_t.K4ABT_TRACKER_PROCESSING_MODE_GPU_CUDA;
+        //public k4abt_tracker_processing_mode_t bodyTrackingProcessingMode = k4abt_tracker_processing_mode_t.K4ABT_TRACKER_PROCESSING_MODE_GPU_CUDA;
+        private k4abt_tracker_processing_mode_t bodyTrackingProcessingMode = k4abt_tracker_processing_mode_t.K4ABT_TRACKER_PROCESSING_MODE_GPU_DIRECTML;
 
         [Tooltip("Model type (full or lite), to be used by the Body Tracking SDK.")]
         private BodyTrackingModelType bodyTrackingModelType = BodyTrackingModelType.FullModel;
